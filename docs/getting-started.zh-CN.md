@@ -63,6 +63,8 @@ $ dotnet add package AntDesign
   ```
   @using AntDesign
   ```
+在'Program.cs'文件中加入
+builder.Services.AddAntDesign();
 
 然后在 Razor 模板中使用：
 
